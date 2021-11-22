@@ -11,7 +11,7 @@
     header('Access-Control-Allow-Origin: *');
     header('Content-Type: application/json');
 
-    require_once("../config/conexion.php");
+    require_once("/xampp/htdocs/G4_20/config/conexion.php");
     require_once("../models/Facturas.php");
     $facturas = new Facturas();
 

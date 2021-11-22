@@ -1,5 +1,5 @@
 <?php
-    class Facturas extends conectar{
+    class Facturas extends Conectar{
        
         public function get_facturas(){
             $conectar= parent::conexion();
